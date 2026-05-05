@@ -4,15 +4,19 @@ const slug = name.toLowerCase().replace(/\s+/g, "-");
 ---
 
 <figure class="card">
+
   <img src={image} alt={name} loading="lazy" />
+
   <figcaption class="card-name">
     <a href={`/${slug}`}><span class="card-emoji">{favorite_emoji}</span> {name}</a>
   </figcaption>
+
   <nav class="card-links">
     <a href={github_permalink} target="_blank" rel="noopener">Portfolio</a>
     <a href={github_profile} target="_blank" rel="noopener">GitHub</a>
     <a href={codepen_profile} target="_blank" rel="noopener">CodePen</a>
   </nav>
+
 </figure>
 
 <style>
@@ -23,6 +27,7 @@ const slug = name.toLowerCase().replace(/\s+/g, "-");
     flex-direction: column;
     gap: 0.5rem;
     border: 1px solid lightgray;
+    background: lightcoral;
   }
 
   .card img {

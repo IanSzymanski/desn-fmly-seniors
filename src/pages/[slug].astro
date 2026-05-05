@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import StudentPage from "../components/StudentPage.astro";
+import data from "../data/data.json";
+
+export function getStaticPaths() {
+  return data.students.map((student) => ({
+    params: { slug: student.name.toLowerCase().replace(/\s+/g, "-") },
+    props: { student },
+  }));
+}
+
+const { student } = Astro.props;
+---
+
+<BaseLayout title={student.name}>
+  <StudentPage {...student} />
+</BaseLayout>

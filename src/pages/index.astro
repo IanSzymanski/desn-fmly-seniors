@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import StudentCard from "../components/StudentCard.astro";
+import data from "../data/data.json";
+
+// data object
+const { students } = data;
+// variables
+const title = 'DESN FMLY Seniors'
+---
+
+<BaseLayout title={title}>
+  
+  <h1> {title} </h1>
+  
+  <main>
+
+    {students.map((student) => (
+      <StudentCard {...student} />
+    ))}
+  
+</main>
+
+</BaseLayout>
+

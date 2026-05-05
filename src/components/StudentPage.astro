@@ -1,0 +1,11 @@
+---
+const { name, image, favorite_emoji, github_permalink, github_profile, codepen_profile } = Astro.props;
+---
+
+<img src={image} alt={name} />
+<h1><span>{favorite_emoji}</span> {name}</h1>
+<nav>
+  <a href={github_permalink} target="_blank" rel="noopener">Portfolio</a>
+  <a href={github_profile} target="_blank" rel="noopener">GitHub</a>
+  <a href={codepen_profile} target="_blank" rel="noopener">CodePen</a>
+</nav>

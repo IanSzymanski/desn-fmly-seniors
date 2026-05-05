@@ -1,0 +1,112 @@
+{
+  "students": [
+    {
+      "name": "Bea Smith",
+      "codepen_profile": "https://codepen.io/Beasmith24",
+      "github_profile": "https://github.com/beasmith152",
+      "github_permalink": "https://beasmith152.github.io",
+      "favorite_emoji": "🐝",
+      "image": "https://placehold.co/600x400?text=Bea+Smith",
+      "bio": "Bea is a graphic designer with a love for branding and editorial layout. She finds inspiration in nature and brings a warm, organic aesthetic to her work."
+    },
+    {
+      "name": "Justine Leinen",
+      "codepen_profile": "https://codepen.io/jleinen1",
+      "github_profile": "https://github.com/jleinen1",
+      "github_permalink": "https://jleinen1.github.io",
+      "favorite_emoji": "🌸",
+      "image": "https://placehold.co/600x400?text=Justine+Leinen",
+      "bio": "Justine specializes in UI design and illustration. She is drawn to soft color palettes and designs that feel both playful and intentional."
+    },
+    {
+      "name": "Brittany Wallace",
+      "codepen_profile": "https://codepen.io/bwallace11",
+      "github_profile": "https://github.com/bwallace11",
+      "github_permalink": "https://bwallace11.github.io",
+      "favorite_emoji": "🎨",
+      "image": "https://placehold.co/600x400?text=Brittany+Wallace",
+      "bio": "Brittany is a multidisciplinary designer passionate about color theory and visual storytelling. She enjoys working across print and digital media."
+    },
+    {
+      "name": "Isabella Valdez",
+      "codepen_profile": "https://codepen.io/ValdezIzzy",
+      "github_profile": "https://github.com/ValdezIzzy",
+      "github_permalink": "https://valdezizzy.github.io",
+      "favorite_emoji": "✨",
+      "image": "https://placehold.co/600x400?text=Isabella+Valdez",
+      "bio": "Isabella is a web and brand designer who loves creating polished, detail-driven experiences. Her work blends elegance with clear, purposeful communication."
+    },
+    {
+      "name": "Emily Herbert",
+      "codepen_profile": "https://codepen.io/emilyherb",
+      "github_profile": "https://github.com/emilyherb",
+      "github_permalink": "https://emilyherb.github.io",
+      "favorite_emoji": "🌿",
+      "image": "https://placehold.co/600x400?text=Emily+Herbert",
+      "bio": "Emily is a designer with a focus on sustainability and environmental communication. Her work reflects a deep appreciation for the natural world."
+    },
+    {
+      "name": "Landon Umland",
+      "codepen_profile": "https://codepen.io/lumland03",
+      "github_profile": "https://github.com/lumland03",
+      "github_permalink": "https://lumland03.github.io",
+      "favorite_emoji": "🦋",
+      "image": "https://placehold.co/600x400?text=Landon+Umland",
+      "bio": "Landon is a designer interested in motion and interactive experiences. He approaches each project as an opportunity to explore transformation and change."
+    },
+    {
+      "name": "Donnie Thurman",
+      "codepen_profile": "https://codepen.io/donniethurman",
+      "github_profile": "https://github.com/donniethurman",
+      "github_permalink": "https://donniethurman.github.io",
+      "favorite_emoji": "🎯",
+      "image": "https://placehold.co/600x400?text=Donnie+Thurman",
+      "bio": "Donnie is a strategic thinker and visual communicator who excels at solving complex design problems. He is known for hitting the mark on both form and function."
+    },
+    {
+      "name": "Sydney Lincoln",
+      "codepen_profile": "https://codepen.io/Sydney-Lincoln",
+      "github_profile": "https://github.com/xoxobeau06",
+      "github_permalink": "https://xoxobeau06.github.io",
+      "favorite_emoji": "💎",
+      "image": "https://placehold.co/600x400?text=Sydney+Lincoln",
+      "bio": "Sydney is a designer with an eye for luxury and refinement. Her portfolio reflects a strong command of typography and high-end visual aesthetics."
+    },
+    {
+      "name": "Ian Szymanski",
+      "codepen_profile": "https://codepen.io/I_Squiddy",
+      "github_profile": "https://github.com/IanSzymanski",
+      "github_permalink": "https://ianszymanski.github.io",
+      "favorite_emoji": "🦑",
+      "image": "https://placehold.co/600x400?text=Ian+Szymanski",
+      "bio": "Ian is a front-end focused designer who loves diving deep into CSS and interactive web experiments. He brings a technical curiosity to every creative challenge."
+    },
+    {
+      "name": "Michael Bushyeager",
+      "codepen_profile": "https://codepen.io/Michael-Bushyeager05",
+      "github_profile": "https://github.com/mbushyeager05",
+      "github_permalink": "https://mbushyeager05.github.io",
+      "favorite_emoji": "🌲",
+      "image": "https://placehold.co/600x400?text=Michael+Bushyeager",
+      "bio": "Michael is a designer rooted in the Pacific Northwest with a passion for outdoor and environmental branding. His work is grounded, bold, and built to last."
+    },
+    {
+      "name": "Tayla Eliason",
+      "codepen_profile": "https://codepen.io/teliasont",
+      "github_profile": "https://github.com/teliasont",
+      "github_permalink": "https://teliasont.github.io",
+      "favorite_emoji": "🎭",
+      "image": "https://placehold.co/600x400?text=Tayla+Eliason",
+      "bio": "Tayla is a designer with a background in theater and performance arts. She brings a dramatic sense of composition and narrative to her visual projects."
+    },
+    {
+      "name": "Peyton Whiteley",
+      "codepen_profile": "https://codepen.io/pknox",
+      "github_profile": "https://github.com/p3ytonk",
+      "github_permalink": "https://p3ytonk.github.io",
+      "favorite_emoji": "🚀",
+      "image": "https://placehold.co/600x400?text=Peyton+Whiteley",
+      "bio": "Peyton is an ambitious designer driven by emerging technology and future-forward thinking. They are always experimenting with new tools and pushing creative boundaries."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+---
+const { name, image, favorite_emoji, github_permalink, github_profile, codepen_profile } = Astro.props;
+const slug = name.toLowerCase().replace(/\s+/g, "-");
+---
+
+<figure class="card">
+  <img src={image} alt={name} loading="lazy" />
+  <figcaption class="card-name">
+    <a href={`/${slug}`}><span class="card-emoji">{favorite_emoji}</span> {name}</a>
+  </figcaption>
+  <nav class="card-links">
+    <a href={github_permalink} target="_blank" rel="noopener">Portfolio</a>
+    <a href={github_profile} target="_blank" rel="noopener">GitHub</a>
+    <a href={codepen_profile} target="_blank" rel="noopener">CodePen</a>
+  </nav>
+</figure>
+
+<style>
+  .card {
+    border: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid lightgray;
+  }
+
+  .card img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-name {
+    }
+
+  .card-emoji {
+  
+  }
+
+  .card-links {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: auto;
+  }
+
+  .card-links a {
+    text-decoration: none;
+    color: goldenrod;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .card-links a:hover {
+    background: gray;
+    color: white;
+  }
+</style>

@@ -4,7 +4,7 @@ const { name, image, favorite_emoji, github_permalink, github_profile, codepen_p
 
 <img src={image} alt={name} />
 
-<span>{favorite_emoji}</span> <h1>{name}</h1>
+<span class="favorite-emoji">{favorite_emoji}</span> <h1>{name}</h1>
 
 <nav>
   <a href={github_permalink} target="_blank" rel="noopener">Portfolio</a>
@@ -16,27 +16,50 @@ const { name, image, favorite_emoji, github_permalink, github_profile, codepen_p
 <button onclick="window.location.href = '/'" class="b2h">Back 2 Home</button>
 
 <style>
-  h1 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
+
+.favorite-emoji {
+  scale: 2;
+  margin: 1rem;
+  padding: .25rem;
+}
   img {
+    max-width: 50%;
     aspect-ratio: 3 / 2;
     object-fit: cover;
-    display: flex;
-    flex-wrap: wrap;
     border-radius: 10px 50px 10px 10px;
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
 
   p {
+    text-align: center;
+    margin-top: 2rem;
     font-size: 1.2rem;
+    max-width: 50%;
+  }
+  a {
+    margin: 1rem;
+  }
+  a:hover {
+    background: var(--medium-surface-color);
   }
   .b2h {
-    background: lightcoral;
-    padding: 0.5em;
-    border-radius: 6px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid var(--light-surface-accent);
+    background: var(--gradient-background);
+    border-radius: 5px 15px 5px 5px;
+    box-shadow: var(--shadow-drop);
+    color: var(--light-surface-color);
+    margin: 2rem;
+  }
+
+  .b2h:hover {
+    transform: translateY(-3px) scale(1.001);
+    box-shadow: var(--hover-drop);
+    border: 1px solid var(--light-surface-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
 </style>

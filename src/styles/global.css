@@ -15,6 +15,11 @@
   }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
   font-family: 'General Sans', sans-serif;
   background: var(--gradient-background);
@@ -23,7 +28,6 @@ body {
 
 h1 {
   text-transform: uppercase;
-  display: inline-block;
   font-size: 6rem;
   line-height: 100%;
   padding-bottom: 2rem;
@@ -31,17 +35,19 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  width: 100%;
+  text-align: center;
 }
 
 main {
+  width: min(100%, 1400px);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
   gap: 2em;
+  align-items: start;
 }
 nav {
   background: var(--dark-surface-accent);
-  padding: none;
+  padding: .5rem;
   border-radius: 10px;
 }
 a {

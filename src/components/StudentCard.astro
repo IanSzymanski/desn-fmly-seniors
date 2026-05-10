@@ -8,7 +8,7 @@ const slug = name.toLowerCase().replace(/\s+/g, "-");
   <img src={image} alt={name} loading="lazy" />
 
   <figcaption class="card-name">
-    <a href={`/${slug}`}><span class="card-emoji">{favorite_emoji}</span> {name}</a>
+    <a href={`/${slug}`}>{name}<span class="card-emoji">{favorite_emoji}</span> </a>
   </figcaption>
 
   <nav class="card-links">
@@ -57,11 +57,10 @@ const slug = name.toLowerCase().replace(/\s+/g, "-");
     }
 
   .card-emoji {
-    background: var(--dark-surface-color);
-    padding: .5rem;
-    border-radius: 0px 0px 20px 0px;;
+    padding-left: .5rem;
+    border-radius: 20px;
     position: absolute;
-    transform: translate(-14px, -315px);
+
   }
 
   .card-links {

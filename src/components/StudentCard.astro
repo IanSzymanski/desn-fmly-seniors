@@ -21,13 +21,21 @@ const slug = name.toLowerCase().replace(/\s+/g, "-");
 
 <style>
   .card {
-    border: 0;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    border: 1px solid lightgray;
-    background: lightcoral;
+    gap: 1rem;
+    border: 1px solid var(--light-surface-accent);
+    background: var(--gradient-background);
+    border-radius: 10px 65px 10px 10px;
+    box-shadow: var(--shadow-drop);
+  }
+
+  .card:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: var(--hover-drop);
+    border: 1px solid var(--light-surface-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .card img {
@@ -35,29 +43,39 @@ const slug = name.toLowerCase().replace(/\s+/g, "-");
     aspect-ratio: 3 / 2;
     object-fit: cover;
     display: block;
+    border-radius: 10px 50px 10px 10px;
   }
 
   .card-name {
+    font-weight: bold;
+    font-size: 2rem;
+    }
+  
+    .card-name:hover {
+    background: var(--medium-surface-color);
+    width: fit-content;
     }
 
   .card-emoji {
-  
+    background: var(--dark-surface-color);
+    padding: .5rem;
+    border-radius: 0px 0px 20px 0px;;
+    position: absolute;
+    transform: translate(-14px, -315px);
   }
 
   .card-links {
     display: flex;
     gap: 0.75rem;
+    padding: 1rem;
     margin-top: auto;
   }
 
   .card-links a {
-    text-decoration: none;
-    color: goldenrod;
-    border-bottom: 1px solid currentColor;
+
   }
 
   .card-links a:hover {
-    background: gray;
-    color: white;
+    background: var(--medium-surface-color);
   }
 </style>

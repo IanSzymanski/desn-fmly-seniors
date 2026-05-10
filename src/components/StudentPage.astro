@@ -2,21 +2,9 @@
 const { name, image, favorite_emoji, github_permalink, github_profile, codepen_profile, bio } = Astro.props;
 ---
 
-<style>
-
-  .b2h {
-    background: lightcoral;
-    padding: 0.5em;
-    border-radius: 6px;
-  }
-
-</style>
-
-<button onclick="window.location.href = '/'" class="b2h">Back 2 Home</button>
-
 <img src={image} alt={name} />
 
-<h1><span>{favorite_emoji}</span> {name}</h1>
+<span>{favorite_emoji}</span> <h1>{name}</h1>
 
 <nav>
   <a href={github_permalink} target="_blank" rel="noopener">Portfolio</a>
@@ -25,3 +13,30 @@ const { name, image, favorite_emoji, github_permalink, github_profile, codepen_p
 </nav>
 
 <p>{bio}</p>
+<button onclick="window.location.href = '/'" class="b2h">Back 2 Home</button>
+
+<style>
+  h1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px 50px 10px 10px;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+  .b2h {
+    background: lightcoral;
+    padding: 0.5em;
+    border-radius: 6px;
+  }
+
+</style>

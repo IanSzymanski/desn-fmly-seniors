@@ -1,4 +1,4 @@
-# DESN FMLY Seniors (template)
+# DESN FMLY Seniors 
 
 ## Why? 
 * Listing of data (rosters) should be dynamic for current and future use
@@ -11,12 +11,3 @@
 * Utilzie components and sub components nested and inherited layouts
 * Programmatically create a listing (roster) of information
 * Practice iteraing an MVP (minimal viable project) to a complete version 1.0
-
-## Commands
-All commands are run from the `/` root of the project:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                             |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
